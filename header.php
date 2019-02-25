@@ -10,7 +10,12 @@
 </head>
 <body <?php body_class(); ?>>
 
+<?php if(is_front_page() ) : ?>
   <header class="bg-transparent">
+<?php else : ?>
+  <header class="bg-light">
+<?php endif; ?>
+
     <div class="container">
       <div class="cd-main-header animate-search">
           <div class="cd-logo cd-logo-light"><a href="#0"><img src="<?php bloginfo('template_url'); ?>/img/cd-logo-light.svg" alt="Logo"></a></div>
@@ -20,10 +25,10 @@
           <a href="#search" class="cd-search-trigger cd-text-replace">Buscar</a>
           
           <ul class="cd-main-nav">
-            <li><a href="#0">La firma</a></li>
-            <li><a href="#0">Profesionales</a></li>
-            <li><a href="#0">Publicaciones</a></li>
-            <li><a href="#0">Contacto</a></li>
+            <li><a href="<?php echo home_url(); ?>/firma">La firma</a></li>
+            <li><a href="<?php echo home_url(); ?>/profesionales">Profesionales</a></li>
+            <li><a href="<?php echo home_url(); ?>/publicaciones">Publicaciones</a></li>
+            <li><a href="<?php echo home_url(); ?>/contacto">Contacto</a></li>
           </ul> <!-- .cd-main-nav -->
         </nav> <!-- .cd-main-nav-wrapper -->
     
