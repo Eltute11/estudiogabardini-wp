@@ -18,15 +18,15 @@
 
     <div class="container">
       <div class="cd-main-header animate-search">
-          <div class="cd-logo cd-logo-light"><a href="#0"><img src="<?php bloginfo('template_url'); ?>/img/cd-logo-light.svg" alt="Logo"></a></div>
-          <div class="cd-logo cd-logo-dark"><a href="#0"><img src="<?php bloginfo('template_url'); ?>/img/cd-logo-dark.svg" alt="Logo"></a></div>
+          <div class="cd-logo cd-logo-light"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/cd-logo-light.svg" alt="Logo"></a></div>
+          <div class="cd-logo cd-logo-dark"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/cd-logo-dark.svg" alt="Logo"></a></div>
     
         <nav class="cd-main-nav-wrapper">
           <a href="#search" class="cd-search-trigger cd-text-replace">Buscar</a>
           
           <ul class="cd-main-nav">
             <li><a href="<?php echo home_url(); ?>/firma">La firma</a></li>
-            <li><a href="<?php echo home_url(); ?>/profesionales">Profesionales</a></li>
+            <li><a href="<?php echo home_url(); ?>/firma#prof" class="to-scroll">Profesionales</a></li>
             <li><a href="<?php echo home_url(); ?>/publicaciones">Publicaciones</a></li>
             <li><a href="<?php echo home_url(); ?>/contacto">Contacto</a></li>
           </ul> <!-- .cd-main-nav -->

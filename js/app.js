@@ -93,4 +93,26 @@ jQuery(function($) {
       });
     }
 
+    /*Scroll transition to anchor*/
+    $("a.to-scroll").on('click',function(e) {
+      var url = e.target.href;
+      var hash = url.substring(url.indexOf("#")+1);
+      $('html, body').animate({
+          scrollTop: $('#'+hash).offset().top
+      }, 700);
+      return false;
+    });
+
+    if (window.location.hash){
+			var hash = window.location.hash.substr(1).toLowerCase();
+
+      $('html, body').scrollTop(0).show();
+
+      if (hash.length){
+        $('html, body').animate({
+          scrollTop: $('#'+hash).offset().top
+        }, 700);
+      }
+		}
+
   });

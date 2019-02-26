@@ -18,11 +18,11 @@
             <h4 class="mr-xl-5 d-none d-md-block">Recorra el sitio</h4>
             <h4 class="mr-xl-5 d-md-none">Sitio</h4>
             <ul>
-                <li><a href="#">Quienes Somos</a></li>
-                <li><a href="#">Áreas de Práctica</a></li>
-                <li><a href="#">Profesionales</a></li>
-                <li><a href="#">Publicaciones</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="<?php echo home_url(); ?>/firma">Quienes Somos</a></li>
+                <li><a href="<?php echo home_url(); ?>/firma#areas" class="to-scroll">Áreas de Práctica</a></li>
+                <li><a href="<?php echo home_url(); ?>/firma#prof" class="to-scroll">Profesionales</a></li>
+                <li><a href="<?php echo home_url(); ?>/publicaciones">Publicaciones</a></li>
+                <li><a href="<?php echo home_url(); ?>/contacto">Contacto</a></li>
             </ul>
             </div>
 
@@ -33,10 +33,11 @@
                 <p>Elaboramos periódicamente informes para clientes y boletines donde se analizan cambios en la legislación y cuestiones relacionadas con la industria, y su impacto en los mercados en que operan nuestros clientes.</p>
                 </div>
                 <div class="col-xl-5">
-                <form action="">
+                  <?php echo do_shortcode('[ninja_form id=3]	');?>
+                <!-- <form action="">
                     <input type="email" name="email" class="bg-dark" placeholder="E-mail">
                     <buttom type="buttom" id="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i></buttom>
-                </form>
+                </form> -->
                 </div>
             </div>
             </div>

@@ -26,7 +26,7 @@
             <a href="#" data-toggle="modal" data-target="#modalCorresponsalia">VEA CORRESPONSALÍAS</a>
           </div>
 
-          <div class="col-lg-6 pl-lg-5 mt-5 mt-lg-0">
+          <div class="col-lg-6 pl-lg-5 mt-5 mt-lg-0" id="areas">
             <h2>ÁREAS DE PRÁCTICA</h2>
             <div class="owl-carousel" id="owl-firma">
               <div class="item">
@@ -120,13 +120,13 @@
             </p>
           </div>
           <div class="col-auto py-4 py-md-0">
-            <a href="#" class="btn btn-light">Quiero recibir<br>asesoramiento</a>
+            <a href="<?php echo home_url(); ?>/contacto" class="btn btn-light">Quiero recibir<br>asesoramiento</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="py-5 my-5">
+    <section class="py-5 my-5" id="prof">
       <div class="container">
         <div class="row">
           <div class="col">

@@ -28,7 +28,7 @@
             <p class="text-white">¿Necesita asistencia legal profesional?</p>
           </div>
           <div class="col-auto">
-            <a href="#" class="btn btn-light ">Haga su consulta</a>
+            <a href="<?php echo home_url(); ?>/contacto" class="btn btn-light ">Haga su consulta</a>
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@
               </ul>
             </div>
           <div class="col-auto mt-5">
-            <a href="#" class="btn btn-lg btn-primary">MÁS SOBRE NOSOTROS</a>
+            <a href="<?php echo home_url(); ?>/firma" class="btn btn-lg btn-primary">MÁS SOBRE NOSOTROS</a>
           </div>
         </div>
       </div>
@@ -115,54 +115,37 @@
           </div>
         </div>
         <div class="row">
+
+          <?php 
+            
+          $args = "array(
+            'posts_per_page' => 3,
+            'order_by' => date,
+            'order' => DESC,
+          )";
+
+          $the_query = new WP_Query( $args );
+          
+          if($the_query->have_posts()) : while($the_query->have_posts()) : $the_query->the_post();
+          ?>
           
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
             <div class="rw-card">
               <!-- <div class="rw-card-top cover" style="background-image: url('https://picsum.photos/200/300')"></div> -->
               <div class="rw-card-body">
-                <h3>Ley de Defensa del Consumidor: Anteproyecto de reforma integralcontenido del texto de un sitio mientras que mira su diseño.</h3>
-                <p>En el marco del Programa Justicia 2020 del Ministerio de Justicia y Derechos Humanos de la Nación, se presentó, en diciembre de 2018, un anteproyecto de reforma integral de la Ley N° 24.240 de Defensa del Consumidor, que fue ... </p>
+                <a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?>.</h3></a>
+                <p><?php the_excerpt(); ?></p>
                 <span>
                   <!-- Etiqueta -->
                   <ul>
-                    <li><a href="#">Defensa del Consumidor</a></li>
+                  <li><?php the_category( ', ' );?></li>
                   </ul>
                 </span>
               </div>
             </div>
           </div>
-          
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-            <div class="rw-card">
-              <!-- <div class="rw-card-top cover" style="background-image: url('https://picsum.photos/200/300')"></div> -->
-              <div class="rw-card-body">
-                <h3>2018 – Revisión anual de defensa de la competencia</h3>
-                <p>Durante 2018, el sistema de defensa de la competencia argentino fue modificado sustancialmente con la aprobación de nueva legislación y regulaciones, así como también con un control más intenso de las concentraciones económicas y las conductas...</p>
-                <span>
-                  <!-- Etiqueta -->
-                  <ul>
-                    <li><a href="#">Derecho de la Competencia</a></li>
-                  </ul>
-                </span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-            <div class="rw-card">
-              <!-- <div class="rw-card-top cover" style="background-image: url('https://picsum.photos/200/300')"></div> -->
-              <div class="rw-card-body">
-                <h3>Nueva reglamentación de las ofertas públicas de adquisición (OPA)</h3>
-                <p>Mediante la Resolución General N° 779/2018, la Comisión Nacional de Valores emitió la reglamentación definitiva de los procesos de ofertas públicas de adquisición.</p>
-                <span>
-                  <!-- Etiqueta -->
-                  <ul>
-                    <li><a href="#">Mercado de Capitales</a></li>
-                  </ul>
-                </span>
-              </div>
-            </div>
-          </div>
+
+          <?php endwhile; wp_reset_postdata(); endif;?>
 
         </div>
       </div>

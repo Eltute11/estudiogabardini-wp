@@ -386,6 +386,7 @@ body.home .rw-card-body{
 }
 .rw-card-body{
     padding: 31px 14px 23px 21px;
+    position: relative;
 }
 .rw-card-body h3{
     font-size: 18px;
@@ -404,6 +405,15 @@ body.home .rw-card-body{
 .rw-card-body span{
     color: #B02E31;
     font-size: 14px;
+}
+.rw-card-body span{
+    color: #B02E31;
+    font-size: 14px;
+}
+body.home .rw-card-body span{
+    position: absolute;
+    bottom: 23px;
+    left: 21px;
 }
 .rw-card-body span ul{
     display: inline;
@@ -541,6 +551,10 @@ footer img{
 }
 footer hr{
     border-color: #777777;
+}
+
+footer .nf-form-fields-required{
+    display: none;
 }
 
 @media (max-width: 576px){

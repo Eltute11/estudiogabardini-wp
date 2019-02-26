@@ -22,27 +22,16 @@
               Resistencia - Chaco - Argentina<br>
               <a href="mailto:info@gabardini-abogados.com.ar">info@gabardini-abogados.com.ar</a>
             </p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13128.739526166833!2d-58.61724964999999!3d-34.650033549999996!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1550603075088" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.7060639343313!2d-58.992420248724464!3d-27.44726982223808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450c601ac23f2d%3A0x7ac179b50f0da33a!2sAv.+25+de+Mayo+480%2C+H3500AAR+Resistencia%2C+Chaco!5e0!3m2!1ses-419!2sar!4v1551196536431" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
 
           <div class="col-lg-6 pl-lg-5 mt-5 mt-lg-0">
             <h2>CONSULTAS</h2>
-            <p>
+            <p class="mb-4">
                 Nos dedicamos  al asesoramiento jurídico tanto en la prevención de conflictos legales como a la hora de realizar nuevos emprendimientos.
             </p>
-            <form action="">
-              <input type="text" placeholder="Nombre" class="bg-light mt-3 rounded">
-              <input type="text" placeholder="Nombre" class="bg-light mt-3 rounded">
-              <input type="text" placeholder="Nombre" class="bg-light mt-3 rounded">
-              <input type="text" placeholder="Nombre" class="bg-light mt-3 rounded">
-              <input type="text" placeholder="Nombre" class="bg-light mt-3 rounded">
-              <input type="text" placeholder="Nombre" class="bg-light mt-3 rounded">
-              <input type="text" placeholder="Nombre" class="bg-light mt-3 rounded">
-              <textarea name="" rows="5" placeholder="Comentario" class="bg-light mt-3 "></textarea>
-              <button class="btn btn-primary mt-3">Enviar</button>
-            </form>
+            <?php echo do_shortcode('[ninja_form id=2]'); ?>
           </div>
-
         </div>
       </div>
     </section>

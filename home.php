@@ -16,39 +16,34 @@
             <h2>NOVEDADES</h2>
           </div>
 
+          <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
           <div class="col-12 mt-4">
             <div class="rw-card bg-grey">
-              <!-- <div class="rw-card-top cover" style="background-image: url('https://picsum.photos/200/300')"></div> -->
               <div class="rw-card-body">
                 <span>
-                  <!-- Etiqueta -->
                   <ul>
-                    <li><a href="#">Defensa del Consumidor</a></li>
+                    <li><?php the_category( ', ' );?></li>
                   </ul>
                 </span>
-                <h3 class="w-75 mb-1">Ley de Defensa del Consumidor: Anteproyecto de reforma integralcontenido del texto de un sitio mientras que mira su diseño.</h3>
-                <time datetime="2019-02-08 20:00">8 de febrero 2019</time>
-                <p class="mt-3">En el marco del Programa Justicia 2020 del Ministerio de Justicia y Derechos Humanos de la Nación, se presentó, en diciembre de 2018, un anteproyecto de reforma integral de la Ley N° 24.240 de Defensa del Consumidor, que fue ... </p>
+                <a href="<?php the_permalink(); ?>"><h3 class="w-75 mb-1"><?php the_title(); ?>.</h3></a>
+                <time datetime="<?php the_time('Y-m-d G:i'); ?>"><?php the_time('d \d\e F Y'); ?></time>
+                <p class="mt-3"><?php the_excerpt(); ?></p>
               </div>
             </div>
           </div>
 
-          <div class="col-12 mt-4">
-            <div class="rw-card bg-grey">
-              <!-- <div class="rw-card-top cover" style="background-image: url('https://picsum.photos/200/300')"></div> -->
-              <div class="rw-card-body">
-                <span>
-                  <!-- Etiqueta -->
-                  <ul>
-                    <li><a href="#">Defensa del Consumidor</a></li>
-                  </ul>
-                </span>
-                <h3 class="w-75 mb-1">La UIF actualizó el procedimiento de supervisión basado en riesgos y reglamentó el deber de colaboración de varios organismos públicos</h3>
-                <time datetime="2019-02-08 20:00">8 de febrero 2019</time>
-                <p class="mt-3">En el marco del Programa Justicia 2020 del Ministerio de Justicia y Derechos Humanos de la Nación, se presentó, en diciembre de 2018, un anteproyecto de reforma integral de la Ley N° 24.240 de Defensa del Consumidor, que fue ... </p>
-              </div>
-            </div>
-          </div>
+          <?php endwhile; endif; ?>
+
+          <ul class="mt-5 mx-auto">
+            <?php
+            echo paginate_links( array( 'prev_text'          => __('<span class="fa-stack" style="vertical-align: top;"><i class="far fa-circle fa-stack-2x"></i><i class="fas fa-chevron-left fa-stack-1x"></i></span>'),
+                                        'next_text'          => __('<span class="fa-stack" style="vertical-align: top;"><i class="far fa-circle fa-stack-2x"></i><i class="fas fa-chevron-right fa-stack-1x"></i></span>'),
+                                        ) 
+                                );
+            ?>
+          </ul>
+
 
         </div>
       </div>
