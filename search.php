@@ -36,17 +36,19 @@
                 </span>
                 <h3 class="w-75 mb-1"><?php the_title(); ?>.</h3>
                 <time datetime="<?php the_time('Y-m-d G:i'); ?>"><?php the_time('d \d\e F Y'); ?></time>
-                <p class="mt-3"><?php the_content('...'); ?></p>
+                <p class="mt-3"><?php the_excerpt(); ?></p>
               </div>
             </div>
           </div>
 
           <?php endwhile; endif; ?>
 
-          <ul class="pull-right">
+          <ul class="mt-5 mx-auto">
             <?php
-            echo paginate_links( array('show_all'           => false,
-                                        'prev_next'          => false) );
+            echo paginate_links( array( 'prev_text'          => __('<span class="fa-stack" style="vertical-align: top;"><i class="far fa-circle fa-stack-2x"></i><i class="fas fa-chevron-left fa-stack-1x"></i></span>'),
+                                        'next_text'          => __('<span class="fa-stack" style="vertical-align: top;"><i class="far fa-circle fa-stack-2x"></i><i class="fas fa-chevron-right fa-stack-1x"></i></span>'),
+                                        ) 
+                                );
             ?>
           </ul>
 
