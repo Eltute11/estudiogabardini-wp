@@ -45,16 +45,16 @@
         </div>
         <div class="row justify-content-center justify-content-md-between">
             <div class="col-auto mb-4 mb-md-0">
-                <a href="#"><img src="<?php bloginfo('template_url'); ?>/img/cd-logo-footer.svg" alt="Logo"></a>
+                <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/cd-logo-footer.svg" alt="Logo"></a>
             </div>
             <div class="col-auto">
-            <a href="#">
+            <a href="https://www.facebook.com/Estudio-Gabardini-123351631074555" target="_blank">
                 <span class="fa-stack" style="font-size: 1rem;">
                 <i class="fas fa-circle fa-stack-2x" style="color: #777777;"></i>
                 <i class="fab fa-facebook-f fa-stack-1x fa-inverse" style="color: #2E2E30;"></i>
                 </span>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/company/gabardini-abogados/about/" target="_blank">
                 <span class="fa-stack" style="font-size: 1rem;">
                 <i class="fas fa-circle fa-stack-2x" style="color: #777777;"></i>
                 <i class="fab fa-linkedin-in fa-stack-1x fa-inverse" style="color: #2E2E30;"></i>

@@ -200,22 +200,33 @@
     <section class="bg-secondary py-5">
       <h2 class="text-center pt-4">Clientes</h2>
       <div class="owl-carousel pb-5 px-3 px-lg-5" id="owl-brand">
-        <img src="<?php bloginfo('template_url'); ?>/img/clientes/farmacity.jpg" alt="farmacity">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/ambito.jpg" alt="ambito">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/audiocenter.jpg" alt="audiocenter">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/axion.jpg" alt="axion">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/barricasderoble.jpg" alt="barricasderoble">
         <img src="<?php bloginfo('template_url'); ?>/img/clientes/cablevision.jpg" alt="cablevision">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/cabralmotors.jpg" alt="cabralmotors">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/credibel.jpg" alt="credibel">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/donnet.jpg" alt="donnet">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/farmacity.jpg" alt="farmacity">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/ferrum.jpg" alt="ferrum">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/friar.jpg" alt="friar">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/galicia.jpg" alt="galicia">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/habitar.jpg" alt="habitar">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/icbc.jpg" alt="icbc">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/johndeere.jpg" alt="johndeere">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/libreriacontexto.jpg" alt="libreriacontexto">
         <img src="<?php bloginfo('template_url'); ?>/img/clientes/mapfre.jpg" alt="mapfre">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/melmix.jpg" alt="melmix">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/mirasoles.jpg" alt="mirasoles">
         <img src="<?php bloginfo('template_url'); ?>/img/clientes/movistar.jpg" alt="movistar">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/northmotors.jpg" alt="northmotors">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/previsoradelparana.jpg" alt="previsoradelparana">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/radiolibertadfm.jpg" alt="radiolibertadfm">
         <img src="<?php bloginfo('template_url'); ?>/img/clientes/sancorseguros.jpg" alt="sancorseguros">
         <img src="<?php bloginfo('template_url'); ?>/img/clientes/telecom.jpg" alt="telecom">
+        <img src="<?php bloginfo('template_url'); ?>/img/clientes/warbel.jpg" alt="warbel">
         <img src="<?php bloginfo('template_url'); ?>/img/clientes/zurich.jpg" alt="zurich">
-        <img src="<?php bloginfo('template_url'); ?>/img/clientes/ferrum.jpg" alt="ferrum">
-        <img src="<?php bloginfo('template_url'); ?>/img/clientes/farmacity.jpg" alt="farmacity">
-        <img src="<?php bloginfo('template_url'); ?>/img/clientes/cablevision.jpg" alt="cablevision">
-        <img src="<?php bloginfo('template_url'); ?>/img/clientes/mapfre.jpg" alt="mapfre">
-        <img src="<?php bloginfo('template_url'); ?>/img/clientes/movistar.jpg" alt="movistar">
-        <img src="<?php bloginfo('template_url'); ?>/img/clientes/sancorseguros.jpg" alt="sancorseguros">
-        <img src="<?php bloginfo('template_url'); ?>/img/clientes/telecom.jpg" alt="telecom">
-        <img src="<?php bloginfo('template_url'); ?>/img/clientes/zurich.jpg" alt="zurich">
-        <img src="<?php bloginfo('template_url'); ?>/img/clientes/ferrum.jpg" alt="ferrum">
       </div>
     </section>
 </main>

@@ -5,15 +5,14 @@
 
       <div class="item">
         <div style="background-image: url('<?php bloginfo('template_url'); ?>/img/hero.jpeg');" class="cover">
-          <h1>ASESORAMIENTO LEGAL DE ALTA CALIDAD
+          <h1 class="text-center">ASESORAMIENTO LEGAL DE ALTA CALIDAD
               CON UN ENFOQUE CREATIVO E INNOVADOR</h1>
         </div>
       </div>
 
       <div class="item">
-        <div style="background-image: url('<?php bloginfo('template_url'); ?>/img/hero.jpeg');" class="cover">
-          <h1>ASESORAMIENTO LEGAL DE ALTA CALIDAD
-              CON UN ENFOQUE CREATIVO E INNOVADOR</h1>
+        <div style="background-image: url('<?php bloginfo('template_url'); ?>/img/bg2-slide-inicio.jpg');" class="cover">
+          <h1 class="text-center">ASESORAMOS EN TODAS LAS ÁREAS DEL DERECHO EMPRESARIAL, TANTO EN LA PREVENCIÓN Y RESOLUCIÓN DE CONFLICTOS COMO EN LA ESTRATEGIA DE RECLAMOS Y JUICIOS.</h1>
         </div>
       </div>
       
@@ -52,22 +51,33 @@
     <section id="partners" class="bg-secondary">
       <div class="container">
         <div class="owl-carousel" id="owl-brand">
-          <img src="<?php bloginfo('template_url'); ?>/img/clientes/farmacity.jpg" alt="farmacity">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/ambito.jpg" alt="ambito">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/audiocenter.jpg" alt="audiocenter">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/axion.jpg" alt="axion">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/barricasderoble.jpg" alt="barricasderoble">
           <img src="<?php bloginfo('template_url'); ?>/img/clientes/cablevision.jpg" alt="cablevision">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/cabralmotors.jpg" alt="cabralmotors">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/credibel.jpg" alt="credibel">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/donnet.jpg" alt="donnet">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/farmacity.jpg" alt="farmacity">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/ferrum.jpg" alt="ferrum">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/friar.jpg" alt="friar">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/galicia.jpg" alt="galicia">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/habitar.jpg" alt="habitar">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/icbc.jpg" alt="icbc">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/johndeere.jpg" alt="johndeere">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/libreriacontexto.jpg" alt="libreriacontexto">
           <img src="<?php bloginfo('template_url'); ?>/img/clientes/mapfre.jpg" alt="mapfre">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/melmix.jpg" alt="melmix">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/mirasoles.jpg" alt="mirasoles">
           <img src="<?php bloginfo('template_url'); ?>/img/clientes/movistar.jpg" alt="movistar">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/northmotors.jpg" alt="northmotors">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/previsoradelparana.jpg" alt="previsoradelparana">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/radiolibertadfm.jpg" alt="radiolibertadfm">
           <img src="<?php bloginfo('template_url'); ?>/img/clientes/sancorseguros.jpg" alt="sancorseguros">
           <img src="<?php bloginfo('template_url'); ?>/img/clientes/telecom.jpg" alt="telecom">
+          <img src="<?php bloginfo('template_url'); ?>/img/clientes/warbel.jpg" alt="warbel">
           <img src="<?php bloginfo('template_url'); ?>/img/clientes/zurich.jpg" alt="zurich">
-          <img src="<?php bloginfo('template_url'); ?>/img/clientes/ferrum.jpg" alt="ferrum">
-          <img src="<?php bloginfo('template_url'); ?>/img/clientes/farmacity.jpg" alt="farmacity">
-          <img src="<?php bloginfo('template_url'); ?>/img/clientes/cablevision.jpg" alt="cablevision">
-          <img src="<?php bloginfo('template_url'); ?>/img/clientes/mapfre.jpg" alt="mapfre">
-          <img src="<?php bloginfo('template_url'); ?>/img/clientes/movistar.jpg" alt="movistar">
-          <img src="<?php bloginfo('template_url'); ?>/img/clientes/sancorseguros.jpg" alt="sancorseguros">
-          <img src="<?php bloginfo('template_url'); ?>/img/clientes/telecom.jpg" alt="telecom">
-          <img src="<?php bloginfo('template_url'); ?>/img/clientes/zurich.jpg" alt="zurich">
-          <img src="<?php bloginfo('template_url'); ?>/img/clientes/ferrum.jpg" alt="ferrum">
         </div>
       </div>
     </section>
